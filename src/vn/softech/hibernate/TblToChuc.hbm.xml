@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 27, 2012 10:59:38 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblToChuc" table="tbl_to_chuc">
+        <id name="toChucId" type="java.lang.Long">
+            <column name="to_chuc_id" />
+            <generator class="identity" />
+        </id>
+        <property name="tenCoQuan" type="string">
+            <column name="ten_co_quan" length="512" not-null="true" />
+        </property>
+        <property name="diaChi" type="string">
+            <column name="dia_chi" length="512" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="256" />
+        </property>
+        <property name="soDienThoai" type="string">
+            <column name="so_dien_thoai" length="256" />
+        </property>
+        <property name="soFax" type="string">
+            <column name="so_fax" length="256" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="tinhThanh" type="string">
+            <column name="tinh_thanh" length="256" />
+        </property>
+        <property name="quanHuyen" type="string">
+            <column name="quan_huyen" length="256" />
+        </property>
+        <property name="xaPhuong" type="string">
+            <column name="xa_phuong" length="256" />
+        </property>
+        <property name="maSoDonVi" type="string">
+            <column name="ma_so_don_vi" length="128" />
+        </property>
+        <bag name="tblTtpdgmstses" table="tbl_ttpdgmsts" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="to_chuc_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblTtpdgmsts" />
+        </bag>
+        <bag name="tblTtcgcndkmsxdcbs" table="tbl_ttcgcndkmsxdcb" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="to_chuc_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblTtcgcndkmsxdcb" />
+        </bag>
+        <bag name="tblTtpapbdtnses" table="tbl_ttpapbdtns" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="to_chuc_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblTtpapbdtns" />
+        </bag>
+        <bag name="tblTtcmsdvsdnses" table="tbl_ttcmsdvsdns" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="to_chuc_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblTtcmsdvsdns" />
+        </bag>
+    </class>
+</hibernate-mapping>

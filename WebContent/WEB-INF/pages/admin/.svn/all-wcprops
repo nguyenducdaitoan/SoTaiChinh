@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/softech-spring-web/!svn/ver/91/WebContent/WEB-INF/pages/admin
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/WebContent/WEB-INF/pages/admin/main.jsp
+END
+banner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/4/WebContent/WEB-INF/pages/admin/banner.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/WebContent/WEB-INF/pages/admin/index.jsp
+END
+blank.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/32/WebContent/WEB-INF/pages/admin/blank.jsp
+END
+left.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/50/WebContent/WEB-INF/pages/admin/left.jsp
+END
+showhide.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/WebContent/WEB-INF/pages/admin/showhide.jsp
+END

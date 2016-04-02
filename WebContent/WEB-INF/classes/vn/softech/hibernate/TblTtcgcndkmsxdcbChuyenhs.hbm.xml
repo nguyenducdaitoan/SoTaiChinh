@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 22, 2012 2:05:31 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblTtcgcndkmsxdcbChuyenhs" table="tbl_ttcgcndkmsxdcb_chuyenhs">
+        <id name="ttcgcndkmsxdcbChuyenhsId" type="java.lang.Long">
+            <column name="ttcgcndkmsxdcb_chuyenhs_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblUsersByUsersChuyenId" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_chuyen_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblTtcgcndkmsxdcb" class="vn.softech.hibernate.TblTtcgcndkmsxdcb" fetch="select">
+            <column name="ttcgcndkmsxdcb_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblUsersByUsersNhanId" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_nhan_id" not-null="true" />
+        </many-to-one>
+        <property name="ngayChuyen" type="timestamp">
+            <column name="ngay_chuyen" length="19" not-null="true" />
+        </property>
+        <property name="ghiChu" type="string">
+            <column name="ghi_chu" length="2048" />
+        </property>
+        <property name="status" type="java.lang.Byte">
+            <column name="status" />
+        </property>
+    </class>
+</hibernate-mapping>

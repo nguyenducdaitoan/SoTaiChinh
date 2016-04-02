@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset { 
+	width:95%;
+	margin-left:12px;
+	border:1px solid #215DC6;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 6px;
+}
+legend {
+	padding: 0.2em 0.5em;
+	border:1px solid #215DC6;
+	color:#215DC6;
+	font-size:12pt;
+	text-align:left;
+	font-weight:bold;
+}
+div.comment {
+	width: 97%;
+    border: 1px solid #EBEBEB;
+    padding: 15px 15px 0;
+    position: relative;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 6px;
+}
+.comment-author-and-date {
+    border-bottom: 1px solid #EBEBEB;
+    padding: 0 10px 10px;
+}
+.comment-author-and-date { overflow: hidden; }
+.comment-author { float: left; }
+em { color: #999999; }
+.commentDate { float: right; }
+.commentText { padding: 10px; text-align: left; }
+/*
+.commentText p {
+	line-height: 130%;
+	padding-bottom: 10px;
+}
+*/

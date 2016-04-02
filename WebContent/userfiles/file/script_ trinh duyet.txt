@@ -1,0 +1,32 @@
+<script type="text/javascript">
+	var clientHeight = document.documentElement.clientHeight;
+	var clientWidth = document.documentElement.clientWidth;
+	if ($.browser.msie)	{
+//		if ($.browser.version == '9.0') {
+			$("div#content").css({"height": clientHeight - 43});
+			$("input[name=title]").css({"width": clientWidth - 172});				
+			document.getElementById('txtFCKContent___Frame').width = clientWidth - 23;
+			document.getElementById('txtFCKContent___Frame').height = clientHeight - 170;
+			$("div#footer").css({"top": clientHeight - 18,"left": 0});
+//		} else {
+//			$("div#content").css({"height": clientHeight - 43});
+//			$("input[name=titleMenu]").css({"width": clientWidth - 154});
+//			$("input[name=title]").css({"width": clientWidth - 154});
+//			document.getElementById('txtFCKContent___Frame').width = clientWidth - 5;
+//			document.getElementById('txtFCKContent___Frame').height = clientHeight - 144;
+//			$("div#footer").css({"top": clientHeight - 18,"left": 0});
+//		}
+	} else if ($.browser.mozilla) {
+		$("div#content").css({"height": clientHeight - 44});
+		$("input[name=title]").css({"width": clientWidth - 171});		
+		document.getElementById('txtFCKContent___Frame').width = clientWidth - 24;
+		document.getElementById('txtFCKContent___Frame').height = clientHeight - 250;
+		$("div#footer").css({"top": clientHeight - 19,"left": 0});
+	} else if ($.browser.safari) {
+		
+	} else if ($.browser.opera) {
+		
+	} else {
+		
+	}	
+</script>

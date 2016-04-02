@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 8, 2012 8:08:57 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblAdvert" table="tbl_advert">
+        <id name="advertId" type="java.lang.Long">
+            <column name="advert_id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="512" not-null="true" />
+        </property>
+        <property name="priority" type="java.lang.Byte">
+            <column name="priority" />
+        </property>
+        <property name="status" type="java.lang.Byte">
+            <column name="status" />
+        </property>
+        <property name="link" type="string">
+            <column name="link" length="512" not-null="true" />
+        </property>
+        <property name="pathImage" type="string">
+            <column name="path_image" length="512" not-null="true" />
+        </property>
+        <property name="position" type="java.lang.Byte">
+            <column name="position" />
+        </property>
+        <property name="exprire" type="date">
+            <column name="exprire" length="10" not-null="true" />
+        </property>
+        <property name="fileType" type="string">
+            <column name="file_type" length="20" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="usersId" type="long">
+            <column name="users_id" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

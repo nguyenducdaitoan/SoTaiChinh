@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 3, 2012 4:17:59 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblUrls" table="tbl_urls">
+        <id name="urlsId" type="java.lang.Long">
+            <column name="urls_id" />
+            <generator class="identity" />
+        </id>
+        <property name="parentId" type="java.lang.Long">
+            <column name="parent_id" />
+        </property>
+        <property name="name" type="string">
+            <column name="name" not-null="true" />
+        </property>
+        <property name="priority" type="java.lang.Byte">
+            <column name="priority" />
+        </property>
+        <property name="link" type="string">
+            <column name="link" />
+        </property>
+        <property name="active" type="java.lang.Boolean">
+            <column name="active" />
+        </property>
+        <property name="popup" type="java.lang.Boolean">
+            <column name="popup" />
+        </property>
+        <property name="icon" type="string">
+            <column name="icon" length="512" />
+        </property>
+        <bag name="tblUrlsGroupses" table="tbl_urls_groups" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="urls_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblUrlsGroups" />
+        </bag>
+<!--         
+        <set name="tblUrlsGroupses" table="tbl_urls_groups" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="urls_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblUrlsGroups" />
+        </set>
+ -->        
+    </class>
+</hibernate-mapping>

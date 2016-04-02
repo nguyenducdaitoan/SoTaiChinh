@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 3, 2012 4:17:59 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblUsersGroups" table="tbl_users_groups">
+        <composite-id name="id" class="vn.softech.hibernate.TblUsersGroupsId">
+            <key-property name="usersId" type="long">
+                <column name="users_id" />
+            </key-property>
+            <key-property name="groupsId" type="long">
+                <column name="groups_id" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="tblGroups" class="vn.softech.hibernate.TblGroups" update="false" insert="false" fetch="select">
+            <column name="groups_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblUsers" class="vn.softech.hibernate.TblUsers" update="false" insert="false" fetch="select">
+            <column name="users_id" not-null="true" />
+        </many-to-one>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="java.lang.Byte">
+            <column name="status" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 14, 2012 1:17:59 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblVbDuthaoGopy" table="tbl_vb_duthao_gopy">
+        <id name="vbDuthaoGopyId" type="java.lang.Long">
+            <column name="vb_duthao_gopy_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblVbDuthao" class="vn.softech.hibernate.TblVbDuthao" fetch="select">
+            <column name="vb_duthao_id" not-null="true" />
+        </many-to-one>
+        <property name="hoVaTen" type="string">
+            <column name="ho_va_ten" length="256" not-null="true" />
+        </property>
+        <property name="ngaySinh" type="string">
+            <column name="ngay_sinh" length="128" />
+        </property>
+        <property name="diaChi" type="string">
+            <column name="dia_chi" length="512" not-null="true" />
+        </property>
+        <property name="dienThoai" type="string">
+            <column name="dien_thoai" length="64" />
+        </property>
+        <property name="fax" type="string">
+            <column name="fax" length="64" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="128" not-null="true" />
+        </property>
+        <property name="tieuDe" type="string">
+            <column name="tieu_de" length="256" not-null="true" />
+        </property>
+        <property name="noiDung" type="string">
+            <column name="noi_dung" length="1024" not-null="true" />
+        </property>
+        <property name="ipAddress" type="string">
+            <column name="ip_address" length="64" />
+        </property>
+        <property name="fileName" type="string">
+            <column name="file_name" length="256" />
+        </property>
+        <property name="attachData" type="binary">
+            <column name="attach_data" />
+        </property>
+        <property name="ngayGoi" type="timestamp">
+            <column name="ngay_goi" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

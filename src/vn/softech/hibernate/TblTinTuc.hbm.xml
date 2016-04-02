@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 3, 2012 1:51:40 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblTinTuc" table="tbl_tin_tuc">
+        <id name="tinTucId" type="java.lang.Long">
+            <column name="tin_tuc_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblChuyenMuc" class="vn.softech.hibernate.TblChuyenMuc" fetch="select">
+            <column name="chuyen_muc_id" not-null="true" />
+        </many-to-one>
+        <property name="title" type="string">
+            <column name="title" length="1024" not-null="true" />
+        </property>
+        <property name="summary" type="string">
+            <column name="summary" length="512" not-null="true" />
+        </property>
+        <property name="content" type="string">
+            <column name="content" length="65535" not-null="true" />
+        </property>
+        <property name="pathImage" type="string">
+            <column name="path_image" length="256" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="active" type="byte">
+            <column name="active" not-null="true" />
+        </property>
+        <property name="approved" type="byte">
+            <column name="approved" not-null="true" />
+        </property>
+        <property name="hot" type="java.lang.Boolean">
+            <column name="hot" />
+        </property>
+        <many-to-one name="usersCreater" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_creater_id" />
+        </many-to-one>
+        <many-to-one name="usersApprover" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_approval_id" />
+        </many-to-one>
+        <property name="isTinbenngoai" type="java.lang.Boolean">
+            <column name="is_tinbenngoai" />
+        </property>
+        <property name="urlSource" type="string">
+            <column name="url_source" length="512" />
+        </property>
+    </class>
+</hibernate-mapping>

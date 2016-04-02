@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 28, 2012 9:43:33 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblTtcmsdvsdns" table="tbl_ttcmsdvsdns">
+        <id name="ttcmsdvsdnsId" type="java.lang.Long">
+            <column name="ttcmsdvsdns_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblCongDan" class="vn.softech.hibernate.TblCongDan" fetch="select">
+            <column name="cong_dan_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblUsersByUsersXuLyId" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_xu_ly_id">
+                <comment>Ng??i x? l&#253; h? s?</comment>
+            </column>
+        </many-to-one>
+        <many-to-one name="tblUsersByUsersThuLyId" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_thu_ly_id">
+                <comment>Ng??i th? l&#253; h? s?</comment>
+            </column>
+        </many-to-one>
+        <many-to-one name="tblToChuc" class="vn.softech.hibernate.TblToChuc" fetch="select">
+            <column name="to_chuc_id" not-null="true" />
+        </many-to-one>
+        <property name="noiDung" type="string">
+            <column name="noi_dung" length="512" />
+        </property>
+        <property name="maSoCap" type="string">
+            <column name="ma_so_cap" length="128" />
+        </property>
+        <property name="isTraLai" type="java.lang.Boolean">
+            <column name="is_tra_lai" />
+        </property>
+        <property name="lyDoTraLai" type="string">
+            <column name="ly_do_tra_lai" length="2048" />
+        </property>
+        <property name="soBienNhan" type="string">
+            <column name="so_bien_nhan" length="256" not-null="true">
+                <comment>M&#227; s? bi&#234;n nh?n</comment>
+            </column>
+        </property>
+        <property name="bienNhanTmc" type="string">
+            <column name="bien_nhan_tmc" length="256" />
+        </property>
+        <property name="codeTraCuu" type="string">
+            <column name="code_tra_cuu" length="256" />
+        </property>
+        <property name="lanSua" type="byte">
+            <column name="lan_sua" not-null="true">
+                <comment>S? l?n s?a ??i h? s?</comment>
+            </column>
+        </property>
+        <property name="trangThai" type="java.lang.Byte">
+            <column name="trang_thai" />
+        </property>
+        <property name="ngayThuLy" type="timestamp">
+            <column name="ngay_thu_ly" length="19" />
+        </property>
+        <property name="ngayHenTra" type="timestamp">
+            <column name="ngay_hen_tra" length="19" />
+        </property>
+        <property name="ngayXuLy" type="timestamp">
+            <column name="ngay_xu_ly" length="19">
+                <comment>Ng&#224;y b?t ??u nh?n x? l&#253; h? s?</comment>
+            </column>
+        </property>
+        <property name="ngayHoanThanh" type="timestamp">
+            <column name="ngay_hoan_thanh" length="19" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="java.lang.Byte">
+            <column name="status" />
+        </property>
+        <property name="lyDoXoa" type="string">
+            <column name="ly_do_xoa" length="1024" />
+        </property>
+        <property name="loaiHinhDonVi" type="string">
+            <column name="loai_hinh_don_vi" length="16" />
+        </property>
+        <property name="capChuongNganSach" type="string">
+            <column name="cap_chuong_ngan_sach" length="20" />
+        </property>
+        <property name="capDuToan" type="string">
+            <column name="cap_du_toan" length="20" />
+        </property>
+        <property name="soQdThanhLap" type="string">
+            <column name="so_qd_thanh_lap" length="64" />
+        </property>
+        <property name="ngayThanhLap" type="date">
+            <column name="ngay_thanh_lap" length="10" />
+        </property>
+        <property name="coQuanRaQd" type="string">
+            <column name="co_quan_ra_qd" length="512" />
+        </property>
+        <property name="donViQuanLy" type="string">
+            <column name="don_vi_quan_ly" length="256" />
+        </property>
+        <bag name="tblTtcmsdvsdnsButPhes" table="tbl_ttcmsdvsdns_but_phe" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="ttcmsdvsdns_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblTtcmsdvsdnsButPhe" />
+        </bag>
+        <bag name="tblTtcmsdvsdnsDinhKems" table="tbl_ttcmsdvsdns_dinh_kem" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="ttcmsdvsdns_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblTtcmsdvsdnsDinhKem" />
+        </bag>
+        <bag name="tblTtcmsdvsdnsChuyenhses" table="tbl_ttcmsdvsdns_chuyenhs" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="ttcmsdvsdns_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblTtcmsdvsdnsChuyenhs" />
+        </bag>
+    </class>
+</hibernate-mapping>

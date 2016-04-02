@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/softech-spring-web/!svn/ver/95/WebContent/WEB-INF
+END
+tiles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/softech-spring-web/!svn/ver/94/WebContent/WEB-INF/tiles.xml
+END
+mvc-dispatcher-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/95/WebContent/WEB-INF/mvc-dispatcher-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/softech-spring-web/!svn/ver/24/WebContent/WEB-INF/web.xml
+END

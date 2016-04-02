@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/softech-spring-web/!svn/ver/92/src/vn/softech/dao
+END
+HinhAnhDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/softech-spring-web/!svn/ver/38/src/vn/softech/dao/HinhAnhDao.java
+END
+DocumentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/DocumentDao.java
+END
+GroupsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/GroupsDao.java
+END
+VbHanhChinhDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/VbHanhChinhDao.java
+END
+TthcDmDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/TthcDmDao.java
+END
+PhanMemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/PhanMemDao.java
+END
+AdvertDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/softech-spring-web/!svn/ver/16/src/vn/softech/dao/AdvertDao.java
+END
+BmdtDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/softech-spring-web/!svn/ver/81/src/vn/softech/dao/BmdtDao.java
+END
+PublicDichVuCongDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/PublicDichVuCongDao.java
+END
+GiaDatDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/GiaDatDao.java
+END
+DichVuCongDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/softech-spring-web/!svn/ver/92/src/vn/softech/dao/DichVuCongDao.java
+END
+LdLoaiVbDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/LdLoaiVbDao.java
+END
+LinkDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/LinkDao.java
+END
+ChuyenMucDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/ChuyenMucDao.java
+END
+TthcDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/softech-spring-web/!svn/ver/77/src/vn/softech/dao/TthcDao.java
+END
+GiattCatalogDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/GiattCatalogDao.java
+END
+GiaThiTruongDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/GiaThiTruongDao.java
+END
+LienHeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/LienHeDao.java
+END
+LdCoQuanDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/LdCoQuanDao.java
+END
+LegalDocumentsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/LegalDocumentsDao.java
+END
+DvcGopyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/DvcGopyDao.java
+END
+VbDuThaoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/VbDuThaoDao.java
+END
+VoteDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/VoteDao.java
+END
+LdCapDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/LdCapDao.java
+END
+CktcDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/softech-spring-web/!svn/ver/81/src/vn/softech/dao/CktcDao.java
+END
+GioiThieuDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/softech-spring-web/!svn/ver/9/src/vn/softech/dao/GioiThieuDao.java
+END
+LdLinhVucDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/LdLinhVucDao.java
+END
+VbHuongDanDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/softech-spring-web/!svn/ver/20/src/vn/softech/dao/VbHuongDanDao.java
+END
+AdminSystemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/26/src/vn/softech/dao/AdminSystemDao.java
+END
+SuKienDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/softech-spring-web/!svn/ver/58/src/vn/softech/dao/SuKienDao.java
+END
+UsersDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/26/src/vn/softech/dao/UsersDao.java
+END
+ThongBaoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/softech-spring-web/!svn/ver/18/src/vn/softech/dao/ThongBaoDao.java
+END
+TrackingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/TrackingDao.java
+END
+HoiDapDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/9/src/vn/softech/dao/HoiDapDao.java
+END
+TinTucDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/TinTucDao.java
+END
+VideoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/11/src/vn/softech/dao/VideoDao.java
+END
+BmdtDmDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/dao/BmdtDmDao.java
+END

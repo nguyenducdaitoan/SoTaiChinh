@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 7, 2012 11:41:35 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblLdLoaiVb" table="tbl_ld_loai_vb">
+        <id name="ldLoaiVbId" type="java.lang.Short">
+            <column name="ld_loai_vb_id" />
+            <generator class="identity" />
+        </id>
+        <property name="type" type="java.lang.Byte">
+            <column name="type">
+                <comment>1 la VBPQ; 2 la VBHC</comment>
+            </column>
+        </property>
+        <property name="name" type="string">
+            <column name="name" length="512" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="macDinh" type="java.lang.Byte">
+            <column name="mac_dinh" />
+        </property>
+        <property name="usersId" type="java.lang.Integer">
+            <column name="users_id" />
+        </property>
+        <bag name="tblLegalDocumentses" table="`tbl_legal documents`" cascade="all" lazy="true" fetch="select">
+            <key>
+                <column name="ld_loai_vb_id" not-null="true" />
+            </key>            
+            <one-to-many class="vn.softech.hibernate.TblLegalDocuments" />
+        </bag>
+<!--         
+        <set name="tblLegalDocumentses" table="`tbl_legal documents`" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="ld_loai_vb_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblLegalDocuments" />
+        </set>
+ -->        
+    </class>
+</hibernate-mapping>

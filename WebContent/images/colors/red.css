@@ -1,0 +1,143 @@
+/* 
+* Style red
+*/
+/* box */
+.have_title h1.title_content_position, .have_title h1.title_content{
+/* 	background: url("red/bg_title_box_gray.png") repeat scroll 0 0 #787474 !important; */
+		/* background: url("red/app_bg_title.png") repeat scroll 0 0 #787474 !important; */
+	/*background:#FF754B!important;*/
+	background: url("red/app_bg_title_gray.png") repeat scroll 0 0 #787474 !important;
+	
+	height: 27px!important;
+	padding: 0px!important;
+}
+
+.have_title h1.title_content a {
+    color: #FFFFFF;
+}
+ .have_title h1.title_content_position, .have_title h1.title_content a.bg_title{
+	 
+}
+a.more_link{
+	float:right; padding-top:6px; background:none!important; padding-right:  5px;
+}
+a span.title_span_left {
+    background: url(red/title_span_left.png);
+    display: inline-block;
+    height: 27px;
+    overflow: hidden;
+    width: 5px;
+    float: left;
+}
+a span.title_span_center {
+    float: left;
+    padding: 8px 4px 4px;
+	background: url(red/title_span_center.png);
+	font-weight: bold;
+}
+a span.title_span_right{
+	/*  background: url(red/title_span_right.png); */
+	background: url(red/app_bg_title_border.png);
+    display: inline-block;
+    height: 27px;
+    overflow: hidden;
+   /*  width: 50px; */
+   width:35px;
+    float: left;
+	
+}
+.have_title h1.title_content_position, .have_title h1.title_content a.bg_title span{
+}
+/* menu */
+.ddsmoothmenu {
+    background: url("red/bg-headermenu.png") repeat-x scroll 0 0 transparent!important;
+	/*background:#FF6A44!important;*/
+}
+.ddsmoothmenu ul li.space {
+    padding: 0 0!important;
+}
+.ddsmoothmenu ul li.space:hover{
+	background: none!important;
+}
+.menu_footer a{
+	padding: 2px 10px 0!important;
+	
+}
+/* footer bacground */
+
+body #wrapper #footer {
+    background: #e5e5e5!important;
+    border-top: none !important;
+    height: 120px !important;
+}
+span.f_span_left {
+    float: left;
+    padding-left: 10pxpx;
+}
+span.f_span_right{
+	 float: right;
+	 padding-right: 20px;
+	 color: #b31810;
+	 font-weight: bold;
+	 
+}
+span.f_span_left img{
+	padding-right: 5px;
+}
+
+.ddsmoothmenu ul li ul li a{
+	background:#625e5e!important;
+	border-bottom: 1px solid #D7D7D7;
+}
+.footer_left {
+    float: left;
+    margin: 10px auto 0;
+    padding-left: 20px !important;
+    text-align: left !important;
+    width: 667px;
+}
+.menu_footer{
+text-align:left;
+}
+.ddsmoothmenu ul li:hover{
+/*	background: #6995E0;	*/
+	 background: url("red/bg-headermenu_hover.png") repeat-x scroll 0px 0px #B31810 !important;
+}
+
+.ddsmoothmenu ul li ul li:hover{
+/*	background: #6995E0;	*/
+	background:#7A7B7C!important;
+}
+
+.ddsmoothmenu ul li a:hover{
+	_background: #7A7B7C!important;
+/*	background: none!important;	*/
+}
+
+a.a_home_sotaichinh:hover {
+    /* background: #7A7B7C; */
+    background: url("red/bg-headermenu_hover.png") repeat-x scroll 0px 0px  #B31810 !important;
+    left: 0;
+    padding: 4px;
+    top: 0;
+}
+.menu_footer{
+	background: url("red/bg-headermenu.png") repeat-x scroll 0px -3px #B31810 !important;
+	padding: 4px 10px!important;
+	
+}
+h1.content_title_right {
+    background: url("../../images/bullet_icon.gif") no-repeat scroll 0 9px transparent;
+    margin-left: 6px;
+    padding-left: 10px;
+}
+
+.info_box_cotent .box_content_post{
+	/* border-bottom: none!important; */
+}
+.info_box_cotent .box_content_post h1{
+	height: auto;
+}
+body #wrapper #footer div {
+/*	color: #666666!important;*/
+}

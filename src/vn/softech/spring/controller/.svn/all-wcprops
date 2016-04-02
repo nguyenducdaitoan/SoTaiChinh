@@ -1,0 +1,593 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/94/src/vn/softech/spring/controller
+END
+ThuTucHanhChinhEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/softech-spring-web/!svn/ver/78/src/vn/softech/spring/controller/ThuTucHanhChinhEditController.java
+END
+VbHanhChinhCoquanEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhCoquanEditController.java
+END
+PublicThongBaoController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/softech-spring-web/!svn/ver/59/src/vn/softech/spring/controller/PublicThongBaoController.java
+END
+LdlinhvucAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdlinhvucAddController.java
+END
+VbHanhChinhAdminAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhAdminAddController.java
+END
+VideoListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/softech-spring-web/!svn/ver/11/src/vn/softech/spring/controller/VideoListController.java
+END
+TinTucDanhMucListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/softech-spring-web/!svn/ver/80/src/vn/softech/spring/controller/TinTucDanhMucListController.java
+END
+PublicVideoController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/59/src/vn/softech/spring/controller/PublicVideoController.java
+END
+PhanmemDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/41/src/vn/softech/spring/controller/PhanmemDeleteController.java
+END
+LoginController.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/softech-spring-web/!svn/ver/27/src/vn/softech/spring/controller/LoginController.java
+END
+UsersAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/spring/controller/UsersAddController.java
+END
+ThongBaoAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/48/src/vn/softech/spring/controller/ThongBaoAddController.java
+END
+GioithieuDeleteAjaxController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/GioithieuDeleteAjaxController.java
+END
+LdloaivbDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/softech-spring-web/!svn/ver/54/src/vn/softech/spring/controller/LdloaivbDeleteController.java
+END
+PhanmemListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/41/src/vn/softech/spring/controller/PhanmemListController.java
+END
+VbHanhChinhLinhvucAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLinhvucAddController.java
+END
+HinhAnhAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/44/src/vn/softech/spring/controller/HinhAnhAddController.java
+END
+GroupsAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/softech-spring-web/!svn/ver/27/src/vn/softech/spring/controller/GroupsAddController.java
+END
+LdcoquanDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcoquanDeleteController.java
+END
+PhanmemEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/41/src/vn/softech/spring/controller/PhanmemEditController.java
+END
+LdcapAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcapAddController.java
+END
+PublicSuKienController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/59/src/vn/softech/spring/controller/PublicSuKienController.java
+END
+SukienTinTucAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/softech-spring-web/!svn/ver/61/src/vn/softech/spring/controller/SukienTinTucAddController.java
+END
+ThuTucHanhChinhAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/softech-spring-web/!svn/ver/77/src/vn/softech/spring/controller/ThuTucHanhChinhAddController.java
+END
+LdloaivbAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/54/src/vn/softech/spring/controller/LdloaivbAddController.java
+END
+PublicTinTucController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/59/src/vn/softech/spring/controller/PublicTinTucController.java
+END
+LdcapDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcapDeleteController.java
+END
+GroupsListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/27/src/vn/softech/spring/controller/GroupsListController.java
+END
+PublicDvcXdcbController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/93/src/vn/softech/spring/controller/PublicDvcXdcbController.java
+END
+LdcapListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcapListController.java
+END
+UrlsListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/softech-spring-web/!svn/ver/27/src/vn/softech/spring/controller/UrlsListController.java
+END
+MaintenanceController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/spring/controller/MaintenanceController.java
+END
+LdlinhvucListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdlinhvucListController.java
+END
+PublicGioiThieuController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/softech-spring-web/!svn/ver/72/src/vn/softech/spring/controller/PublicGioiThieuController.java
+END
+GroupsEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/27/src/vn/softech/spring/controller/GroupsEditController.java
+END
+LinkListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/softech-spring-web/!svn/ver/11/src/vn/softech/spring/controller/LinkListController.java
+END
+LdcapEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcapEditController.java
+END
+PublicLienketController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/59/src/vn/softech/spring/controller/PublicLienketController.java
+END
+UrlsEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/softech-spring-web/!svn/ver/27/src/vn/softech/spring/controller/UrlsEditController.java
+END
+LdlinhvucEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdlinhvucEditController.java
+END
+PhanmemAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/41/src/vn/softech/spring/controller/PhanmemAddController.java
+END
+VbHanhChinhLoaiVbDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLoaiVbDeleteController.java
+END
+TinTucListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/89/src/vn/softech/spring/controller/TinTucListController.java
+END
+PublicLienHeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/81/src/vn/softech/spring/controller/PublicLienHeController.java
+END
+VBHuongdanAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/VBHuongdanAddController.java
+END
+VbHanhChinhLoaiVbListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLoaiVbListController.java
+END
+VbHanhChinhAdminDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhAdminDeleteController.java
+END
+TinTucEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/90/src/vn/softech/spring/controller/TinTucEditController.java
+END
+VBHuongdanDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/VBHuongdanDeleteController.java
+END
+TinTucAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/softech-spring-web/!svn/ver/89/src/vn/softech/spring/controller/TinTucAddController.java
+END
+ThuTucHanhChinhDanhMucListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/softech-spring-web/!svn/ver/69/src/vn/softech/spring/controller/ThuTucHanhChinhDanhMucListController.java
+END
+VbHanhChinhLoaiVbEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLoaiVbEditController.java
+END
+ThongBaoDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/softech-spring-web/!svn/ver/18/src/vn/softech/spring/controller/ThongBaoDeleteController.java
+END
+PublicAdvertController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/59/src/vn/softech/spring/controller/PublicAdvertController.java
+END
+PublicBMDTController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/81/src/vn/softech/spring/controller/PublicBMDTController.java
+END
+VbHanhChinhAdminListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhAdminListController.java
+END
+LdloaivbListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/54/src/vn/softech/spring/controller/LdloaivbListController.java
+END
+LegalDocumentsAdminAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/softech-spring-web/!svn/ver/62/src/vn/softech/spring/controller/LegalDocumentsAdminAddController.java
+END
+SukienListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/58/src/vn/softech/spring/controller/SukienListController.java
+END
+PublicGallaryController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/59/src/vn/softech/spring/controller/PublicGallaryController.java
+END
+SuKienTinTucEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/softech-spring-web/!svn/ver/78/src/vn/softech/spring/controller/SuKienTinTucEditController.java
+END
+VbHanhChinhLinhvucDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLinhvucDeleteController.java
+END
+GioithieuEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/GioithieuEditController.java
+END
+ThongBaoListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/38/src/vn/softech/spring/controller/ThongBaoListController.java
+END
+UsersListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/softech-spring-web/!svn/ver/27/src/vn/softech/spring/controller/UsersListController.java
+END
+GioithieuAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/GioithieuAddController.java
+END
+VbHanhChinhAdminEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhAdminEditController.java
+END
+VbHanhChinhCoquanAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhCoquanAddController.java
+END
+LeftAdminPageController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/spring/controller/LeftAdminPageController.java
+END
+HinhAnhDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/38/src/vn/softech/spring/controller/HinhAnhDeleteController.java
+END
+VBHuongdanEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/VBHuongdanEditController.java
+END
+PublicTTHCController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/81/src/vn/softech/spring/controller/PublicTTHCController.java
+END
+LdloaivbEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/54/src/vn/softech/spring/controller/LdloaivbEditController.java
+END
+LegalDocumentsAdminDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/softech-spring-web/!svn/ver/62/src/vn/softech/spring/controller/LegalDocumentsAdminDeleteController.java
+END
+LdcoquanListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcoquanListController.java
+END
+PublicMenuController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/81/src/vn/softech/spring/controller/PublicMenuController.java
+END
+VbHanhChinhLinhvucListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLinhvucListController.java
+END
+UsersEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/spring/controller/UsersEditController.java
+END
+ThongBaoEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/48/src/vn/softech/spring/controller/ThongBaoEditController.java
+END
+HinhAnhListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/38/src/vn/softech/spring/controller/HinhAnhListController.java
+END
+VbHanhChinhCoquanDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhCoquanDeleteController.java
+END
+LegalDocumentsAdminListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/softech-spring-web/!svn/ver/62/src/vn/softech/spring/controller/LegalDocumentsAdminListController.java
+END
+LdlinhvucDeleteController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdlinhvucDeleteController.java
+END
+LdcoquanEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcoquanEditController.java
+END
+LdcoquanAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/52/src/vn/softech/spring/controller/LdcoquanAddController.java
+END
+VbHanhChinhLinhvucEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLinhvucEditController.java
+END
+AdvertListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/24/src/vn/softech/spring/controller/AdvertListController.java
+END
+GioithieuViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/GioithieuViewController.java
+END
+SukienTinTucListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/softech-spring-web/!svn/ver/61/src/vn/softech/spring/controller/SukienTinTucListController.java
+END
+ThuTucHanhChinhListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/softech-spring-web/!svn/ver/77/src/vn/softech/spring/controller/ThuTucHanhChinhListController.java
+END
+HinhAnhEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/softech-spring-web/!svn/ver/44/src/vn/softech/spring/controller/HinhAnhEditController.java
+END
+VbHanhChinhCoquanListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhCoquanListController.java
+END
+PublicCKTCController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/81/src/vn/softech/spring/controller/PublicCKTCController.java
+END
+HomePageController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/softech-spring-web/!svn/ver/94/src/vn/softech/spring/controller/HomePageController.java
+END
+LegalDocumentsAdminEditController.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/softech-spring-web/!svn/ver/62/src/vn/softech/spring/controller/LegalDocumentsAdminEditController.java
+END
+VideoListController.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/softech-spring-web/!svn/ver/11/src/vn/softech/spring/controller/VideoListController.class
+END
+VBHuongdanViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/softech-spring-web/!svn/ver/10/src/vn/softech/spring/controller/VBHuongdanViewController.java
+END
+VbHanhChinhLoaiVbAddController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/softech-spring-web/!svn/ver/66/src/vn/softech/spring/controller/VbHanhChinhLoaiVbAddController.java
+END

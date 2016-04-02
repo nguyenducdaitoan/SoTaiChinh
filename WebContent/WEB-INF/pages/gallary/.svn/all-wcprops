@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/softech-spring-web/!svn/ver/59/WebContent/WEB-INF/pages/gallary
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/59/WebContent/WEB-INF/pages/gallary/list.jsp
+END
+category.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/59/WebContent/WEB-INF/pages/gallary/category.jsp
+END
+ajaxcategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/softech-spring-web/!svn/ver/59/WebContent/WEB-INF/pages/gallary/ajaxcategory.jsp
+END

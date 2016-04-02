@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 17, 2012 3:49:07 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblQuestionAssign" table="tbl_question_assign">
+        <id name="questionAssignId" type="java.lang.Integer">
+            <column name="question_assign_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblQuestion" class="vn.softech.hibernate.TblQuestion" fetch="select">
+            <column name="question_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="assigner" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="assigner" not-null="true" />
+        </many-to-one>
+        <many-to-one name="assignToUsersId" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="assign_to_users_id" not-null="true" />
+        </many-to-one>
+        <property name="assignDate" type="timestamp">
+            <column name="assign_date" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

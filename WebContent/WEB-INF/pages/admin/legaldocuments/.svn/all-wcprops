@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/64/WebContent/WEB-INF/pages/admin/legaldocuments
+END
+legaldocumentsedit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/softech-spring-web/!svn/ver/64/WebContent/WEB-INF/pages/admin/legaldocuments/legaldocumentsedit.jsp
+END
+legaldocumentsadd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/softech-spring-web/!svn/ver/64/WebContent/WEB-INF/pages/admin/legaldocuments/legaldocumentsadd.jsp
+END
+legaldocumentslist.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/softech-spring-web/!svn/ver/64/WebContent/WEB-INF/pages/admin/legaldocuments/legaldocumentslist.jsp
+END

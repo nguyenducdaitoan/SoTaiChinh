@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 11, 2012 9:12:02 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblTracking" table="tbl_tracking">
+        <id name="trackingId" type="java.lang.Long">
+            <column name="tracking_id" />
+            <generator class="identity" />
+        </id>
+        <property name="url" type="string">
+            <column name="url" length="1024" not-null="true" />
+        </property>
+        <property name="ipAddress" type="string">
+            <column name="ip_address" length="32" not-null="true" />
+        </property>
+        <property name="accessDate" type="timestamp">
+            <column name="access_date" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

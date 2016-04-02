@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+  <definition name="baseLayout" template="/WEB-INF/pages/layout/main.jsp">
+      <put-attribute name="title"		value="Sở Tài chinh Thành phố Đà Nẵng"/>
+      <put-attribute name="content"   value=""/>
+      <put-attribute name="featured"   value="/featured.html"/>
+      <put-attribute name="menu/list"   value="/menu/list.html"/>
+      <put-attribute name="searchform"   value="/searchform.html"/>
+      <put-attribute name="thongbao/list"   value="/thongbao/list.html"/>
+      <put-attribute name="sukien/list"   value="/sukien/list.html"/>
+      <put-attribute name="video/list"   value="/video/list.html"/>
+      <put-attribute name="advert/list"   value="/advert/list.html"/>
+      <put-attribute name="gallary/list"   value="/gallary/list.html"/>
+      <put-attribute name="lienket/list"   value="/lienket/list.html"/>
+      <put-attribute name="right"   value="/right.html"/>
+      <put-attribute name="footer"   	value="/footer.html"/>
+  </definition>
+ 
+ <!--Begin Box home page -->
+  <definition name="welcome" extends="baseLayout">
+      <put-attribute name="title"  value="Welcome"/>
+      <put-attribute name="content"   value="/WEB-INF/pages/home.jsp" />
+  </definition>
+  <definition name="searchform">
+     <put-attribute name="title"  value="From tìm kiếm"/>
+     <put-attribute name="contentsearchform"   value="/WEB-INF/pages/searchform.jsp" />
+  </definition> 
+  <definition name="search" extends="baseLayout">
+      <put-attribute name="title"  value="Trang tìm kiếm"/>
+      <put-attribute name="content"   value="/WEB-INF/pages/search.jsp" />
+  </definition>
+  <!--Begin Box home page -->
+  <!-- Begin Box Menu -->
+	<definition name="menu/list">
+		<put-attribute name="title"  value="Menu Website"/>
+		<put-attribute name="contentmenuwebsite"   value="/WEB-INF/pages/menu/list.jsp" />
+	</definition>  
+  <!-- End Box Menu -->
+  <!-- Begin Box Tin Tuc -->
+  <definition name="tintuc/detail" extends="baseLayout">
+      <put-attribute name="title"  value="Tin tức"/>
+      <put-attribute name="content"   value="/WEB-INF/pages/tintuc/detail.jsp" />
+  </definition>
+   <definition name="tintuc/printnewsdetail" extends="baseLayout">
+      <put-attribute name="title"  value="Print Tin tức"/>
+      <put-attribute name="printnewsdetail"   value="/WEB-INF/pages/tintuc/printdetail.jsp" />
+  </definition>
+  <definition name="tintuc/category" extends="baseLayout">
+      <put-attribute name="title"  value="Chuyên Mục Tin tức"/>
+      <put-attribute name="content"   value="/WEB-INF/pages/tintuc/category.jsp" />
+  </definition>
+   <definition name="tintuc/ajaxcategory">
+      <put-attribute name="title"  value="Chuyên Mục Tin tức"/>
+      <put-attribute name="ajaxtintuccategory"   value="/WEB-INF/pages/tintuc/ajaxcategory.jsp" />
+  </definition>
+  <!--End Box Tin Tuc -->
+   
+  <!--Begin Box Thông báo -->
+  <definition name="thongbao/list">
+     <put-attribute name="title"  value="Chuyên Mục Thông báo"/>
+     <put-attribute name="contentthongbao"   value="/WEB-INF/pages/thongbao/list.jsp" />
+  </definition> 
+   <definition name="thongbao/detail" extends="baseLayout">
+     <put-attribute name="title"  value="Chi tiết Thông báo"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/thongbao/detail.jsp" />
+  </definition> 
+   <definition name="thongbao/print" extends="baseLayout">
+      <put-attribute name="title"  value="Print Thông báo"/>
+      <put-attribute name="printthongbao"   value="/WEB-INF/pages/thongbao/printdetail.jsp" />
+  </definition>
+  <!--End Box Thông báo -->
+ 
+   <!--Begin Box Sự kiện -->
+  <definition name="sukien/list">
+     <put-attribute name="title"  value="Chuyên Mục Sự kiện"/>
+     <put-attribute name="contentsukien"   value="/WEB-INF/pages/sukien/list.jsp" />
+  </definition> 
+  <definition name="sukien/category" extends="baseLayout">
+     <put-attribute name="title"  value="Chuyên Mục Sự kiện"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/sukien/category.jsp" />
+  </definition> 
+   <definition name="sukien/detail" extends="baseLayout">
+     <put-attribute name="title"  value="Chi tiết Sự kiện"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/sukien/detail.jsp" />
+  </definition> 
+   <definition name="sukien/print" extends="baseLayout">
+      <put-attribute name="title"  value="Print Sự kiện"/>
+      <put-attribute name="printsukien"   value="/WEB-INF/pages/sukien/printdetail.jsp" />
+  </definition>
+  <definition name="sukien/ajaxcategory">
+      <put-attribute name="title"  value="Chuyên Mục Sự Kiện"/>
+      <put-attribute name="ajaxsukiencategory"   value="/WEB-INF/pages/sukien/ajaxcategory.jsp" />
+  </definition>
+  <!--End Box Sự Kiện -->
+  
+  <!--Begin Box Video -->
+  <definition name="video/list">
+     <put-attribute name="title"  value="Chuyên Mục Video"/>
+     <put-attribute name="contentvideo"   value="/WEB-INF/pages/video/list.jsp" />
+  </definition> 
+  <!--End Box Video -->
+  
+   <!--Begin Box Gallary -->
+  <definition name="gallary/list">
+     <put-attribute name="title"  value="Chuyên Mục Hình ảnh"/>
+     <put-attribute name="contentvideo"   value="/WEB-INF/pages/gallary/list.jsp" />
+  </definition> 
+   <definition name="gallary/category"  extends="baseLayout">
+   	 <put-attribute name="gallary/list"   value=""/>
+     <put-attribute name="title"  value="Chuyên Mục Hình ảnh"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/gallary/category.jsp" />
+  </definition> 
+  <definition name="gallary/ajaxcategory">
+      <put-attribute name="title"  value="Chuyên Mục Hình ảnh"/>
+      <put-attribute name="ajaxgallarycategory"   value="/WEB-INF/pages/gallary/ajaxcategory.jsp" />
+  </definition>
+  <!--End Box Gallary -->
+  
+  <!--Begin Box Advert -->
+  <definition name="advert/list">
+     <put-attribute name="title"  value="Chuyên Mục Quảng Cáo"/>
+     <put-attribute name="contentadvert"   value="/WEB-INF/pages/advert/list.jsp" />
+  </definition> 
+  <!--End Box Advert -->
+  
+  <!--Begin Box Lien Ket -->
+  <definition name="lienket/list">
+     <put-attribute name="title"  value="Chuyên Mục Liên Kết"/>
+     <put-attribute name="contentlienket"   value="/WEB-INF/pages/lienket/list.jsp" />
+  </definition> 
+  <!--End Box Lien Ket -->
+  
+  <!--Begin Box Gioi Thieu -->
+   <definition name="gioithieu/detail" extends="baseLayout">
+     <put-attribute name="title"  value="Print Giới Thiệu"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/gioithieu/detail.jsp" />
+  </definition> 
+   <definition name="gioithieu/print" extends="baseLayout">
+      <put-attribute name="title"  value="Print Giới Thiệu"/>
+      <put-attribute name="printgioithieu"   value="/WEB-INF/pages/gioithieu/printdetail.jsp" />
+  </definition>
+  <!--End Box Gioi Thieu -->  
+  
+  <!--Begin Box Thủ tục hành chính -->
+  <definition name="tthc/category" extends="baseLayout">
+     <put-attribute name="title"  value="Chuyên Mục Thủ tục hành chính"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/tthc/category.jsp" />
+  </definition> 
+   <definition name="tthc/detail" extends="baseLayout">
+     <put-attribute name="title"  value="Chi tiết Thủ tục hành chính"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/tthc/detail.jsp" />
+  </definition> 
+   <definition name="tthc/print" extends="baseLayout">
+      <put-attribute name="title"  value="Print Thủ tục hành chính"/>
+      <put-attribute name="printtthc"   value="/WEB-INF/pages/tthc/printdetail.jsp" />
+  </definition>
+  <definition name="tthc/ajaxcategory">
+      <put-attribute name="title"  value="Chuyên Mục Thủ tục hành chính"/>
+      <put-attribute name="ajaxtthccategory"   value="/WEB-INF/pages/tthc/ajaxcategory.jsp" />
+  </definition>
+  <!--End Box Thủ tục hành chính -->
+  
+  <!--Begin Box Công Khai tài chính -->
+  <definition name="cktc/category" extends="baseLayout">
+     <put-attribute name="title"  value="Chuyên Mục  Công Khai tài chính"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/cktc/category.jsp" />
+  </definition> 
+   <definition name="cktc/detail" extends="baseLayout">
+     <put-attribute name="title"  value="Chi tiết  Công Khai tài chính"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/cktc/detail.jsp" />
+  </definition> 
+   <definition name="cktc/print" extends="baseLayout">
+      <put-attribute name="title"  value="Print  Công Khai tài chính"/>
+      <put-attribute name="printcktc"   value="/WEB-INF/pages/cktc/printdetail.jsp" />
+  </definition>
+  <definition name="cktc/ajaxcategory">
+      <put-attribute name="title"  value="Chuyên Mục  Công Khai tài chính"/>
+      <put-attribute name="ajaxcktccategory"   value="/WEB-INF/pages/cktc/ajaxcategory.jsp" />
+  </definition>
+  <!--End Box Công Khai tài chính -->
+  
+  <!--Begin Box Biểu mẫu điện tử -->
+  <definition name="bmdt/category" extends="baseLayout">
+     <put-attribute name="title"  value="Chuyên Mục  Biểu mẫu điện tử "/>
+     <put-attribute name="content"   value="/WEB-INF/pages/bmdt/category.jsp" />
+  </definition> 
+   <definition name="bmdt/detail" extends="baseLayout">
+     <put-attribute name="title"  value="Chi tiết  Biểu mẫu điện tử "/>
+     <put-attribute name="content"   value="/WEB-INF/pages/bmdt/detail.jsp" />
+  </definition> 
+   <definition name="bmdt/print" extends="baseLayout">
+      <put-attribute name="title"  value="Print  Biểu mẫu điện tử "/>
+      <put-attribute name="printbmdt"   value="/WEB-INF/pages/bmdt/printdetail.jsp" />
+  </definition>
+  <definition name="bmdt/ajaxcategory">
+      <put-attribute name="title"  value="Chuyên Mục  Biểu mẫu điện tử "/>
+      <put-attribute name="ajaxbmdtcategory"   value="/WEB-INF/pages/bmdt/ajaxcategory.jsp" />
+  </definition>
+  <!--End Box  Biểu mẫu điện tử -->  
+  
+  <!--Begin Box Liên hệ -->
+   <definition name="lienhe/detail" extends="baseLayout">
+     <put-attribute name="title"  value="Liên hệ"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/lienhe/detail.jsp" />
+  </definition> 
+   <definition name="lienhe/thanks" extends="baseLayout">
+      <put-attribute name="title"  value="Thanks - Liên hệ"/>
+      <put-attribute name="content"   value="/WEB-INF/pages/lienhe/thanks.jsp" />
+  </definition>
+  <!--End Box Liên hệ -->  
+  <!--Begin Box DVC -->
+  <definition name="dvc/list" extends="baseLayout">
+     <put-attribute name="title"  value="DVC"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/dvc/list.jsp" />
+  </definition> 
+  <definition name="dvc/xdcb" extends="baseLayout">
+     <put-attribute name="title"  value="DVC"/>
+     <put-attribute name="content"   value="/WEB-INF/pages/dvc/xdcb/dangky.jsp" />
+  </definition> 
+   <definition name="dvc/thanks" extends="baseLayout">
+      <put-attribute name="title"  value="Thanks - DVC"/>
+      <put-attribute name="content"   value="/WEB-INF/pages/dvc/thanks.jsp" />
+  </definition>
+  <!--End Box Liên hệ -->   
+ 
+<!--   
+  <definition name="friends" extends="baseLayout">
+      <put-attribute name="title"  value="Friends"/>
+      <put-attribute name="content"   value="/WEB-INF/jsp/friends.jsp" />      
+  </definition>
+  
+  <definition name="office" extends="baseLayout">
+      <put-attribute name="title"  value="Office"/>
+      <put-attribute name="content"   value="/WEB-INF/jsp/office.jsp" />      
+  </definition>
+ -->
+</tiles-definitions>

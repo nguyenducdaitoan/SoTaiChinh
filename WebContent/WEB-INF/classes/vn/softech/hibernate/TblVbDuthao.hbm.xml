@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 14, 2012 1:17:59 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblVbDuthao" table="tbl_vb_duthao">
+        <id name="vbDuthaoId" type="java.lang.Long">
+            <column name="vb_duthao_id" />
+            <generator class="identity" />
+        </id>
+        <property name="title" type="string">
+            <column name="title" length="1024" not-null="true" />
+        </property>
+        <property name="content" type="string">
+            <column name="content" length="65535" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="approved" type="java.lang.Boolean">
+            <column name="approved" />
+        </property>
+        <property name="ngayApproved" type="timestamp">
+            <column name="ngay_approved" length="19" />
+        </property>
+        <bag name="tblVbDuthaoGopies" table="tbl_vb_duthao_gopy" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="vb_duthao_id" not-null="true" />
+            </key>
+            <one-to-many class="vn.softech.hibernate.TblVbDuthaoGopy" />
+        </bag>
+    </class>
+</hibernate-mapping>

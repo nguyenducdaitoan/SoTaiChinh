@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 28, 2012 9:43:33 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblTtcmsdvsdnsButPhe" table="tbl_ttcmsdvsdns_but_phe">
+        <id name="ttcmsdvsdnsButPheId" type="java.lang.Long">
+            <column name="ttcmsdvsdns_but_phe_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblUsers" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_but_phe_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblTtcmsdvsdns" class="vn.softech.hibernate.TblTtcmsdvsdns" fetch="select">
+            <column name="ttcmsdvsdns_id" not-null="true" />
+        </many-to-one>
+        <property name="noiDung" type="string">
+            <column name="noi_dung" length="1024" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

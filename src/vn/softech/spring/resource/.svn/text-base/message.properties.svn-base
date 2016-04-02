@@ -1,0 +1,11 @@
+login.error.username=T\u00EAn \u0111\u0103ng nh\u1EADp kh\u00F4ng \u0111\u00FAng
+NotEmpty.loginForm.userName=T\u00EAn \u0111\u0103ng nh\u1EADp kh\u00F4ng \u0111\u01B0\u1EE3c tr\u1ED1ng
+NotEmpty.loginForm.password=M\u1EADt kh\u1EA9u \u0111\u0103ng nh\u1EADp kh\u00F4ng \u0111\u01B0\u1EE3c tr\u1ED1ng
+Size.loginForm.userName=T\u00EAn \u0111\u0103ng nh\u1EADp t\u1ED1i thi\u1EBFu l\u00E0 3 k\u00FD t\u1EF1 v\u00E0 t\u1ED1i \u0111a l\u00E0 50 k\u00FD t\u1EF1
+Size.loginForm.password=M\u1EADt kh\u1EA9u \u0111\u0103ng nh\u1EADp t\u1ED1i thi\u1EC3u l\u00E0 6 k\u00FD t\u1EF1 v\u00E0 t\u1ED1i \u0111a l\u00E0 30 k\u00FD t\u1EF1
+NotEmpty.loginForm.passwordMd5=M\u1EADt kh\u1EA9u kh\u00F4ng h\u1EE3p l\u1EC7 (Tr\u00ECnh duy\u1EC7t c\u1EE7a b\u1EA1n c\u00F3 th\u1EC3 kh\u00F4ng h\u1ED7 tr\u1EE3 javascript)
+message.error.loginForm.userName.notexist=T\u00EAn \u0111\u0103ng nh\u1EADp l\u00E0 kh\u00F4ng t\u1ED3n t\u1EA1i
+message.error.loginForm.password.notcorrect=M\u1EADt kh\u1EA9u kh\u00F4ng h\u1EE3p l\u1EC7
+NotEmpty.vbhuongdan.title=Ti\u00EAu \u0111\u1EC1 kh\u00F4ng \u0111\u01B0\u1EE3c tr\u1ED1ng
+NotEmpty.vbhuongdan.summary=T\u00F3m t\u1EAFt kh\u00F4ng \u0111\u01B0\u1EE3c tr\u1ED1ng
+NotEmpty.vbhuongdan.content=N\u1ED9i dung kh\u00F4ng \u0111\u01B0\u1EE3c tr\u1ED1ng

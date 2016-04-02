@@ -1,0 +1,809 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/hibernate
+END
+TblCktc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblCktc.hbm.xml
+END
+TblGiaDat.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGiaDat.hbm.xml
+END
+TblChuyenMuc.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblChuyenMuc.java
+END
+TblTtpdgmsts.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmsts.hbm.xml
+END
+TblVbHanhChinh.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbHanhChinh.java
+END
+TblTthcDm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTthcDm.hbm.xml
+END
+TblUrls.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUrls.hbm.xml
+END
+TblTtcgcndkmsxdcbChuyenhs.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcbChuyenhs.hbm.xml
+END
+TblQuestion.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblQuestion.hbm.xml
+END
+TblVote.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVote.hbm.xml
+END
+TblBmdt.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblBmdt.java
+END
+TblDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblDocument.java
+END
+TblCongDan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblCongDan.hbm.xml
+END
+TblTtpapbdtnsChuyenhs.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtnsChuyenhs.java
+END
+TblUrlsGroupsId.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUrlsGroupsId.java
+END
+TblQuestionAssign.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblQuestionAssign.hbm.xml
+END
+TblLdLoaiVb.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdLoaiVb.java
+END
+TblGioiThieu.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGioiThieu.java
+END
+TblLink.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLink.hbm.xml
+END
+TblThongBao.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblThongBao.hbm.xml
+END
+TblQuanHuyen.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblQuanHuyen.java
+END
+TblTtpapbdtnsDinhKem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtnsDinhKem.hbm.xml
+END
+TblQuestion.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblQuestion.java
+END
+TblLienHe.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLienHe.hbm.xml
+END
+TblLienHe.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLienHe.java
+END
+TblVbDuthao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbDuthao.java
+END
+TblTtcgcndkmsxdcb.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcb.hbm.xml
+END
+TblLegalDocuments.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLegalDocuments.java
+END
+TblPhongBan.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblPhongBan.java
+END
+TblTtpdgmstsChuyenhs.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmstsChuyenhs.java
+END
+TblLdLinhVuc.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdLinhVuc.java
+END
+TblVbDuthaoGopy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbDuthaoGopy.hbm.xml
+END
+TblTtcmsdvsdns.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdns.java
+END
+TblSuKienTinTuc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/hibernate/TblSuKienTinTuc.hbm.xml
+END
+TblTtcmsdvsdnsChuyenhs.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdnsChuyenhs.hbm.xml
+END
+TblXaPhuong.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblXaPhuong.hbm.xml
+END
+TblVbDuthaoGopy.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbDuthaoGopy.java
+END
+TblBmdt.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblBmdt.hbm.xml
+END
+TblDocument.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblDocument.hbm.xml
+END
+TblTtpdgmstsDinhKem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmstsDinhKem.hbm.xml
+END
+TblVoteItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVoteItem.hbm.xml
+END
+TblCktcCm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblCktcCm.hbm.xml
+END
+TblBmdtDm.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblBmdtDm.java
+END
+TblVbHanhChinh.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbHanhChinh.hbm.xml
+END
+TblHinhAnh.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblHinhAnh.hbm.xml
+END
+TblTtpapbdtnsDinhKem.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtnsDinhKem.java
+END
+TblVoteResult.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVoteResult.hbm.xml
+END
+TblGiaThiTruong.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/hibernate/TblGiaThiTruong.hbm.xml
+END
+TblQuanHuyen.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblQuanHuyen.hbm.xml
+END
+TblTinTuc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTinTuc.hbm.xml
+END
+TblVoteItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVoteItem.java
+END
+TblTtcmsdvsdns.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdns.hbm.xml
+END
+TblTtcgcndkmsxdcbDinhKem.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcbDinhKem.java
+END
+TblCongDan.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblCongDan.java
+END
+TblSuKien.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblSuKien.java
+END
+TblAnswer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblAnswer.hbm.xml
+END
+TblTtcmsdvsdnsButPhe.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdnsButPhe.hbm.xml
+END
+TblTtpapbdtnsButPhe.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtnsButPhe.hbm.xml
+END
+TblUsers.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUsers.hbm.xml
+END
+TblGioiThieu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGioiThieu.hbm.xml
+END
+TblGiaDat.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGiaDat.java
+END
+TblToChuc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblToChuc.hbm.xml
+END
+TblQuestionAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblQuestionAssign.java
+END
+TblPhanmem.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblPhanmem.java
+END
+TblAdvert.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblAdvert.java
+END
+TblGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGroups.java
+END
+TblSuKienTinTuc.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblSuKienTinTuc.java
+END
+TblPhanmem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblPhanmem.hbm.xml
+END
+TblGroups.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGroups.hbm.xml
+END
+TblAdvert.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblAdvert.hbm.xml
+END
+TblTtcmsdvsdnsChuyenhs.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdnsChuyenhs.java
+END
+TblTtpapbdtnsChuyenhs.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtnsChuyenhs.hbm.xml
+END
+TblUrlsGroups.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUrlsGroups.hbm.xml
+END
+TblUsers.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUsers.java
+END
+TblVoteResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVoteResult.java
+END
+TblGiaThiTruong.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGiaThiTruong.java
+END
+TblTtpapbdtnsButPhe.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtnsButPhe.java
+END
+TblTtcmsdvsdnsDinhKem.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdnsDinhKem.java
+END
+TblDvcGopy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblDvcGopy.hbm.xml
+END
+TblUsersGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUsersGroups.java
+END
+TblLdCap.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdCap.java
+END
+TblLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLink.java
+END
+TblChuyenMuc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblChuyenMuc.hbm.xml
+END
+TblTtcgcndkmsxdcbButPhe.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcbButPhe.java
+END
+TblLdCoQuan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdCoQuan.hbm.xml
+END
+TblTtpapbdtns.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtns.hbm.xml
+END
+TblTthc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTthc.hbm.xml
+END
+TblVote.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVote.java
+END
+HibernateSessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/HibernateSessionFactory.java
+END
+TblLdCap.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdCap.hbm.xml
+END
+TblTtpdgmstsButPhe.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmstsButPhe.java
+END
+TblLegalDocuments.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLegalDocuments.hbm.xml
+END
+TblVbDuthao.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbDuthao.hbm.xml
+END
+TblTtcgcndkmsxdcb.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcb.java
+END
+TblPhongBan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblPhongBan.hbm.xml
+END
+TblDvcGopy.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblDvcGopy.java
+END
+TblHinhAnh.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblHinhAnh.java
+END
+TblBmdtDm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblBmdtDm.hbm.xml
+END
+TblTtcmsdvsdnsButPhe.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdnsButPhe.java
+END
+TblSuKien.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/hibernate/TblSuKien.hbm.xml
+END
+TblTtpdgmstsDinhKem.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmstsDinhKem.java
+END
+TblTthc.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTthc.java
+END
+TblUsersGroupsId.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUsersGroupsId.java
+END
+TblLdLoaiVb.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdLoaiVb.hbm.xml
+END
+TblTtcgcndkmsxdcbDinhKem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcbDinhKem.hbm.xml
+END
+TblXaPhuong.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblXaPhuong.java
+END
+TblTtcgcndkmsxdcbButPhe.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcbButPhe.hbm.xml
+END
+TblToChuc.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblToChuc.java
+END
+TblGiattCatalog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/softech-spring-web/!svn/ver/3/src/vn/softech/hibernate/TblGiattCatalog.hbm.xml
+END
+TblTinTuc.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTinTuc.java
+END
+TblVbHuongDan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbHuongDan.hbm.xml
+END
+TblTtcmsdvsdnsDinhKem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcmsdvsdnsDinhKem.hbm.xml
+END
+TblCktcCm.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblCktcCm.java
+END
+TblAnswer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblAnswer.java
+END
+TblTtpdgmstsButPhe.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmstsButPhe.hbm.xml
+END
+TblThongBao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblThongBao.java
+END
+TblTtpapbdtns.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpapbdtns.java
+END
+TblCktc.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblCktc.java
+END
+TblTracking.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTracking.hbm.xml
+END
+TblLdLinhVuc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdLinhVuc.hbm.xml
+END
+TblTtpdgmstsChuyenhs.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmstsChuyenhs.hbm.xml
+END
+HibernateSessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/HibernateSessionManager.java
+END
+TblVideo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVideo.hbm.xml
+END
+TblUsersGroups.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUsersGroups.hbm.xml
+END
+TblTtcgcndkmsxdcbChuyenhs.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtcgcndkmsxdcbChuyenhs.java
+END
+TblTthcDm.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTthcDm.java
+END
+TblUrls.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUrls.java
+END
+TblVbHuongDan.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVbHuongDan.java
+END
+TblVideo.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblVideo.java
+END
+TblTtpdgmsts.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTtpdgmsts.java
+END
+TblGiattCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblGiattCatalog.java
+END
+TblUrlsGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblUrlsGroups.java
+END
+TblTracking.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblTracking.java
+END
+TblLdCoQuan.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/softech-spring-web/!svn/ver/2/src/vn/softech/hibernate/TblLdCoQuan.java
+END

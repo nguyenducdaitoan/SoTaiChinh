@@ -1,0 +1,168 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE xhtml PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="cache-control" content="no-cache" />
+<script type="text/javascript" src="js/apytmenu.js"></script>
+<script language="Javascript">
+<!--
+		var tpressedFontColor = "#AA0000";		
+		var tpathPrefix_img = "images/icon/";		
+		var tlevelDX = 0;
+		var ttoggleMode = 1;		
+		var texpanded = 0;
+		var tcloseExpanded   = 0;
+		var tcloseExpandedXP = 1;		
+		var tblankImage      = "images/icon/blank.gif";
+		var tmenuWidth       = "190px";
+		var tmenuHeight      = 0;		
+		var tabsolute        = 1;
+		var tleft            = 5;	// canh trái box
+		var ttop             = 5;		
+		var tfloatable       = 0;
+		var tfloatIterations = 5;		
+		var tmoveable        = 0;
+		var tmoveImage       = "images/movepic.gif";
+		var tmoveImageHeight = 12;		
+		var tfontStyle       = "Normal 10pt 'Tahoma'";
+		var tfontColor       = ["#3F3D3D","#7E7C7C"];	//var tfontColor       = ["#215DC6","#428EFF"];
+		var tfontDecoration  = ["none","underline"];		
+		var titemBackColor   = ["#F0F1F5","#F0F1F5"];	//var titemBackColor   = ["#D6DFF7","#D6DFF7"];
+		var titemAlign       = "left";
+		var titemBackImage   = ["blank.gif","blank.gif"];
+		var titemCursor      = "hand";
+		var titemHeight      = 25;
+		var titemTarget      = "main";		
+		var ticonWidth       = 16;
+		var ticonHeight      = 16;
+		var ticonAlign       = "left";		
+		var tmenuBackImage   = "";
+		var tmenuBackColor   = "";
+		var tmenuBorderColor = "#B35C05";
+		var tmenuBorderStyle = "solid";			
+		var tmenuBorderWidth = 0;		
+		var texpandBtn       =["expandbtn2.gif","expandbtn2.gif","collapsebtn2.gif"];
+		var texpandBtnW      = 9;
+		var texpandBtnH      = 9;
+		var texpandBtnAlign  = "left";		
+		var tpoints       = 0;
+		var tpointsImage  = "";
+		var tpointsVImage = "";
+		var tpointsCImage = "";		
+		var tXPStyle = 1;
+		var tXPIterations = 10;
+		var tXPTitleBackColor = "#57C34A";
+		var tXPExpandBtn = ["xpexpand1.gif","xpexpand1.gif","xpcollapse1.gif","xpcollapse1.gif"];
+		var tXPTitleBackImg = "xptitle.gif";		
+		var tXPTitleLeft = "xptitleleft.gif";
+		var tXPTitleLeftWidth = 4;		
+		var tXPBtnWidth = 25;
+		var tXPBtnHeight = 25;		
+		var tXPIconWidth = 31;
+		var tXPIconHeight = 32;		
+		var tXPFilter=1;		
+		var tXPBorderWidth = 1;
+		var tXPBorderColor = '#FFFFFF';
+		var tstyles =
+		[
+		    ["tfontStyle=bold 8pt Tahoma","tfontColor=#FFFFFF,#D2FCD5", "tfontDecoration=none,none"],
+		    ["tfontStyle=bold 8pt Tahoma","tfontColor=#3F3D3D,#659669", "tfontDecoration=none,none"],
+		    ["tfontDecoration=none,none"],
+		    ["tfontStyle=bold 8pt Tahoma","tfontColor=#444444,#5555FF"]
+		];
+
+		var tXPStyles =
+		[
+				["tXPTitleBackColor=#DEF3DB", "tXPExpandBtn=xpexpand2_green.gif,xpexpand2_green.gif,xpcollapse2_green.gif,xpcollapse2_green.gif", "tXPTitleBackImg=xptitle2_green.gif"]
+		];
+		var tmenuItems =
+		[
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Dịch vụ công<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Tiếp nhận</span>", "/admin/dvc/tiepnhan.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Xử lý hồ sơ</span>", "/admin/dvc/xulyhoso.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Theo dõi</span>", "/admin/dvc/theodoihoso.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Hoàn thành</span>", "/admin/dvc/listhoanthanh.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Thống kê</span>", "/admin/dvc/bcthongke.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Báo cáo</span>", "/admin/dvc/bcchitiet.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Góp ý</span>", "/admin/dvc/gopy.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Thông tin chung<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Giới thiệu</span>", "/admin/gioithieulist.do", "shopping-cart2.gif","","","", "main"],
+				["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Thông báo</span>", "/admin/thongbao/list.html", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Liên kết</span>", "/admin/links/list.html", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Quảng cáo</span>", "/admin/adverts/list.html", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Thư viện hình ảnh</span>", "/admin/hinhanhlist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Quản lý giá đất</span>", "/admin/giadat/list.html", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Video</span>", "/admin/videos/list.html", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Phần Mềm</span>", "/admin/quanlyphanmem.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>VB hướng dẫn</span>", "/admin/vbhuongdanlist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Bình chọn (vote)</span>", "/admin/listvote.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Liên hệ</span>", "/admin/lienhelist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Giá thị trường</span>", "/admin/giathitruonglist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Văn bản pháp quy<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Cấp cơ quan</span>", "/admin/ldcaplist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Cơ quan ban hành</span>", "/admin/ldcoquanlist.do?type=1", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Lĩnh vực</span>", "/admin/ldlinhvuclist.do?type=1", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Loại văn bản</span>", "/admin/ldloaivblist.do?type=1", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Văn bản pháp quy</span>", "/admin/legaldocumentslist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Biểu mẫu điện tử<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Mục biểu mẫu</span>", "/admin/bmdtdmlist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Thêm mới</span>", "/admin/bmdtadd.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Danh sách</span>", "/admin/bmdtlist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Quản lý Hỏi/Đáp<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Câu hỏi</span>", "/admin/questionlist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Trả lời</span>", "/admin/questionanswer.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Tin Tức<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Chuyên mục</span>", "/admin/chuyenmuclist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Thêm mới</span>", "/admin/tintucadd.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Phê  duyệt</span>", "/admin/tintuclist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Lấy tin tự động</span>", "/admin/getnewsoutsite.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Danh sách</span>", "/admin/tintuc/list.html", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Thủ tục hành chính<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Chuyên mục</span>", "/admin/thutucchuyenmuclist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Thủ tục</span>", "/admin/thutuchanhchinhlist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Công khai tài chính<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Chuyên mục</span>", "/admin/cktccm.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Công khai tài chính</span>", "/admin/cktclist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Văn bản hành chính<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Cơ quan ban hành</span>", "/admin/ldcoquanlist.do?type=2", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Lĩnh vực</span>", "/admin/ldlinhvuclist.do?type=2", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Loại văn bản</span>", "/admin/ldloaivblist.do?type=2", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Danh sách văn bản</span>", "/admin/vbhanhchinhlist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Giá thị trường<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Chuyên mục giá</span>", "/admin/giattcataloglist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Giá thị trường</span>", "/admin/giathitruonglist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Sự kiện - Tin Tức<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Sự kiện</span>", "/admin/sukienlist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Tin tức</span>", "/admin/sukientintuclist.do", "shopping-cart2.gif","","","", "main"],
+			["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'>Quản trị<span>", "", "","","", "Mở/Ðóng","","3","0"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Quyền nhóm</span>", "/admin/groupspermissionurlslist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Người dùng</span>", "/admin/users/list.html", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Phân quyền</span>", "/admin/groupspermissionlist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Nhóm người dùng</span>", "/admin/groupslist.do", "shopping-cart2.gif","","","", "main"],
+			["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'>Logout</span>", "/logout.do", "shopping-cart2.gif","","","", "main"],
+<%
+/*
+			<c:if test="${not empty listUrls}">
+				<c:forEach var="url" items="${listUrls}" varStatus="status">
+					<c:choose>
+						<c:when test="${url.parentId == null}">
+							["<span style='padding-left: 20px; text-shadow: 1px 1px #ffffff'><c:out value="${url.name}" /><span>", "", "","","", "Mở/Ðóng","","3","0"],
+						</c:when>
+						<c:otherwise>
+						["|<span style='text-shadow: 1px 1px #ffffff; cursor: pointer'><c:out value="${url.name}" /></span>", "<c:out value="${url.link}" />", "shopping-cart2.gif","","","", "main"],
+						</c:otherwise>
+					</c:choose>
+				</c:forEach>
+			</c:if>
+*/
+%>
+		];
+	apy_tmenuInit();
+//-->
+</script>
+</head>
+<body id="contents" style="background-color: #90CD89;">	
+</body>
+</html>

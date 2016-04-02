@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 10, 2012 8:21:23 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblGiaThiTruong" table="tbl_gia_thi_truong">
+        <id name="giaThiTruongId" type="java.lang.Long">
+            <column name="gia_thi_truong_id" />
+            <generator class="identity" />
+        </id>
+        <property name="giattCatalogId" type="java.lang.Long">
+            <column name="giatt_catalog_id" />
+        </property>
+        <property name="type" type="java.lang.Byte">
+            <column name="type">
+                <comment>week, month, quarter, year</comment>
+            </column>
+        </property>
+        <property name="title" type="string">
+            <column name="title" length="1024" not-null="true" />
+        </property>
+        <property name="content" type="string">
+            <column name="content" length="16777215" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="active" type="boolean">
+            <column name="active" not-null="true" />
+        </property>
+        <property name="usersId" type="java.lang.Byte">
+            <column name="users_id" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 14, 2012 8:28:15 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblXaPhuong" table="tbl_xa_phuong">
+        <id name="xaPhuongId" type="java.lang.Long">
+            <column name="xa_phuong_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblQuanHuyen" class="vn.softech.hibernate.TblQuanHuyen" fetch="select">
+            <column name="quan_huyen_id" />
+        </many-to-one>
+        <property name="tenXaPhuong" type="string">
+            <column name="ten_xa_phuong" length="1024" not-null="true" />
+        </property>
+        <property name="isTrungTam" type="java.lang.Boolean">
+            <column name="is_trung_tam" />
+        </property>
+        <property name="status" type="java.lang.Byte">
+            <column name="status" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 18, 2012 2:23:31 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblSuKienTinTuc" table="tbl_su_kien_tin_tuc">
+        <id name="suKienTinTucId" type="java.lang.Long">
+            <column name="su_kien_tin_tuc_id" />
+            <generator class="identity" />
+        </id>
+        <property name="suKienId" type="long">
+            <column name="su_kien_id" not-null="true" />
+        </property>
+        <property name="title" type="string">
+            <column name="title" length="1024" not-null="true" />
+        </property>
+        <property name="summary" type="string">
+            <column name="summary" length="2048" not-null="true" />
+        </property>
+        <property name="content" type="string">
+            <column name="content" length="16777215" not-null="true" />
+        </property>
+        <property name="pathImage" type="string">
+            <column name="path_image" length="256" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="active" type="boolean">
+            <column name="active" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

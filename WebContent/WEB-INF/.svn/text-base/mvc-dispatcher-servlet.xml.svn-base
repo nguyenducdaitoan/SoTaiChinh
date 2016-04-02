@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:mvc="http://www.springframework.org/schema/mvc"
+   xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+         
+    <mvc:annotation-driven />
+    <mvc:view-controller path="/layout/main.html" 		view-name="/layout/main" />
+    <mvc:view-controller path="/footer.html" 			view-name="/footer" />
+    <mvc:view-controller path="/right.html" 			view-name="/right" />
+    <mvc:view-controller path="/featured.html" 			view-name="/featured" />
+    <mvc:view-controller path="admin/index.html" 		view-name="admin/index" />
+	<mvc:view-controller path="admin/banner.html" 		view-name="admin/banner" />
+ 	<mvc:view-controller path="admin/blank.html" 		view-name="admin/blank" />
+	<mvc:view-controller path="admin/main.html" 		view-name="admin/main" />
+	<mvc:view-controller path="admin/showhide.html" 	view-name="admin/showhide" />
+	<mvc:view-controller path="admin/users/error.html" 	view-name="admin/users/error" />
+	<mvc:view-controller path="admin/groups/error.html" view-name="admin/groups/error" />
+ 	<mvc:view-controller path="admin/urls/index.html" 	view-name="admin/urls/index" />
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
+    <bean class="vn.softech.spring.controller.LoginController" />    
+    <bean class="vn.softech.spring.controller.TinTucListController" />
+    <bean class="vn.softech.spring.controller.LeftAdminPageController" />
+    <bean class="vn.softech.spring.controller.UsersListController" />
+    <bean class="vn.softech.spring.controller.UsersEditController" />
+    <bean class="vn.softech.spring.controller.UsersAddController" />
+    <bean class="vn.softech.spring.controller.VideoListController" />
+    <bean class="vn.softech.spring.controller.LinkListController" />
+    <bean class="vn.softech.spring.controller.ThongBaoAddController" />   
+    <bean class="vn.softech.spring.controller.ThongBaoEditController" />   
+    <bean class="vn.softech.spring.controller.ThongBaoDeleteController" />   
+    <bean class="vn.softech.spring.controller.ThongBaoListController" />   
+      <bean class="vn.softech.spring.controller.HinhAnhAddController" />   
+    <bean class="vn.softech.spring.controller.HinhAnhEditController" />   
+    <bean class="vn.softech.spring.controller.HinhAnhDeleteController" />   
+    <bean class="vn.softech.spring.controller.GroupsListController" />
+    <bean class="vn.softech.spring.controller.GroupsAddController" />
+    <bean class="vn.softech.spring.controller.GroupsEditController" />
+    <bean class="vn.softech.spring.controller.AdvertListController" />
+    <bean class="vn.softech.spring.controller.UrlsListController" />
+      <bean class="vn.softech.spring.controller.SukienListController" />
+    <bean class="vn.softech.spring.controller.SukienTinTucListController" />
+    <bean class="vn.softech.spring.controller.UrlsEditController" />
+        <bean class="vn.softech.spring.controller.SukienTinTucAddController" />
+    <bean class="vn.softech.spring.controller.SuKienTinTucEditController" />
+    <bean class="vn.softech.spring.controller.ThuTucHanhChinhDanhMucListController" />
+    <bean class="vn.softech.spring.controller.ThuTucHanhChinhListController" />
+        <bean class="vn.softech.spring.controller.ThuTucHanhChinhAddController" />
+    <bean class="vn.softech.spring.controller.ThuTucHanhChinhEditController" />
+    <bean class="vn.softech.spring.controller.TinTucDanhMucListController" />
+    <bean class="vn.softech.spring.controller.TinTucAddController" />
+    <bean class="vn.softech.spring.controller.TinTucEditController" />
+ 	<bean class="vn.softech.spring.controller.HomePageController">
+		<property name="message" value="Welcome to Softech Spring Web!" />
+	</bean>
+	<bean class="vn.softech.spring.controller.PublicTinTucController" />
+	<bean class="vn.softech.spring.controller.PublicThongBaoController" />
+	<bean class="vn.softech.spring.controller.PublicSuKienController" />
+	<bean class="vn.softech.spring.controller.PublicVideoController" />
+	<bean class="vn.softech.spring.controller.PublicGallaryController" />
+	<bean class="vn.softech.spring.controller.PublicAdvertController" />
+	<bean class="vn.softech.spring.controller.PublicLienketController" />
+	<bean class="vn.softech.spring.controller.PublicMenuController" />
+	<bean class="vn.softech.spring.controller.PublicGioiThieuController" />
+	<bean class="vn.softech.spring.controller.PublicTTHCController" />
+	<bean class="vn.softech.spring.controller.PublicCKTCController" />
+	<bean class="vn.softech.spring.controller.PublicBMDTController" />
+	<bean class="vn.softech.spring.controller.PublicLienHeController" />
+	<bean class="vn.softech.spring.controller.PublicDvcXdcbController" />
+	<bean name="/maintenance.html" class="vn.softech.spring.controller.MaintenanceController" />
+	
+ 	<!-- Configures Handler Interceptors --> 
+	<mvc:interceptors>
+ 		<mvc:interceptor>
+	  		<mvc:mapping path="/**"/>
+	  		<bean class="vn.softech.spring.interceptor.RequestInitializeInterceptor" />
+	 	</mvc:interceptor>
+ 		<mvc:interceptor >
+	  		<mvc:mapping path="/**"/>
+	  		<bean class="vn.softech.spring.interceptor.ExecuteTimeInterceptor" />
+	 	</mvc:interceptor>
+	 	<mvc:interceptor>
+	  		<mvc:mapping path="/welcome.html"/>
+	  		<bean class="vn.softech.spring.interceptor.MaintenanceInterceptor">
+	  			<property name="maintenanceStartTime" value="24" />
+				<property name="maintenanceEndTime" value="24" />
+				<property name="maintenanceMapping" value="/maintenance.html" />
+			</bean>
+	 	</mvc:interceptor>
+	</mvc:interceptors>
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames" value="vn/softech/spring/resource/message" />
+	</bean>
+	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/tiles.xml</value>
+			</list>
+		</property>
+	</bean>
+	<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>
+	</bean>
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
+          <property name="prefix">
+              <value>/WEB-INF/pages/</value>
+           </property>
+          <property name="suffix">
+             <value>.jsp</value>
+          </property>
+    </bean>
+</beans>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 6, 2012 3:11:48 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblVote" table="tbl_vote">
+        <id name="voteId" type="java.lang.Long">
+            <column name="vote_id" />
+            <generator class="identity" />
+        </id>
+        <property name="content" type="string">
+            <column name="content" length="512" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="java.lang.Long">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="active" type="boolean">
+            <column name="active" not-null="true" />
+        </property>
+        <bag name="voteItems" cascade="all" lazy="true" fetch="select">
+            <key>
+                <column name="vote_id" not-null="true" />
+            </key>            
+            <one-to-many class="vn.softech.hibernate.TblVoteItem" />
+        </bag>
+    </class>
+</hibernate-mapping>

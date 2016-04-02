@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 6, 2012 3:11:48 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblVoteResult" table="tbl_vote_result">
+        <id name="voteResultId" type="java.lang.Long">
+            <column name="vote_result_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblVoteItem" class="vn.softech.hibernate.TblVoteItem" fetch="select">
+            <column name="vote_item_id" not-null="true" />
+        </many-to-one>
+        <property name="ipAddress" type="string">
+            <column name="ip_address" length="21" not-null="true" />
+        </property>
+        <property name="voteDate" type="timestamp">
+            <column name="vote_date" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

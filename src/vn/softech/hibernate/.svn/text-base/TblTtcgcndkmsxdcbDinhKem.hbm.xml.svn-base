@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 27, 2012 10:59:38 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblTtcgcndkmsxdcbDinhKem" table="tbl_ttcgcndkmsxdcb_dinh_kem">
+        <id name="ttcgcndkmsxdcbDinhKemId" type="java.lang.Long">
+            <column name="ttcgcndkmsxdcb_dinh_kem_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblUsers" class="vn.softech.hibernate.TblUsers" fetch="select">
+            <column name="users_dinh_kem_id" />
+        </many-to-one>
+        <many-to-one name="tblDocument" class="vn.softech.hibernate.TblDocument" fetch="select">
+            <column name="document_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblTtcgcndkmsxdcb" class="vn.softech.hibernate.TblTtcgcndkmsxdcb" fetch="select">
+            <column name="ttcgcndkmsxdcb_id" not-null="true" />
+        </many-to-one>
+        <property name="tenHoSo" type="string">
+            <column name="ten_ho_so" length="512" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

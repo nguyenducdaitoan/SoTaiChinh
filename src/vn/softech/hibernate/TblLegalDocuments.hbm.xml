@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 18, 2012 3:03:09 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vn.softech.hibernate.TblLegalDocuments" table="`tbl_legal documents`">
+        <id name="legalDocumentsId" type="java.lang.Long">
+            <column name="`legal documents_id`" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tblLdLoaiVb" class="vn.softech.hibernate.TblLdLoaiVb" fetch="select">
+            <column name="ld_loai_vb_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblLdCoQuan" class="vn.softech.hibernate.TblLdCoQuan" fetch="select">
+            <column name="ld_co_quan_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tblLdLinhVuc" class="vn.softech.hibernate.TblLdLinhVuc" fetch="select">
+            <column name="ld_linh_vuc_id" not-null="true" />
+        </many-to-one>
+        <property name="tenVb" type="string">
+            <column name="ten_vb" length="2048" not-null="true" />
+        </property>
+        <property name="soHieuVb" type="string">
+            <column name="so_hieu_vb" length="128" not-null="true" />
+        </property>
+        <property name="fileName" type="string">
+            <column name="file_name" length="256" not-null="true" />
+        </property>
+        <property name="fileType" type="string">
+            <column name="file_type" length="20" />
+        </property>
+        <property name="data" type="binary">
+            <column name="data" not-null="true" />
+        </property>
+        <property name="ngayBh" type="date">
+            <column name="ngay_bh" length="10" not-null="true" />
+        </property>
+        <property name="ngayHieuLuc" type="date">
+            <column name="ngay_hieu_luc" length="10" not-null="true" />
+        </property>
+        <property name="nguoiKyVb" type="string">
+            <column name="nguoi_ky_vb" length="128" not-null="true" />
+        </property>
+        <property name="filePath" type="string">
+            <column name="file_path" length="512" />
+        </property>
+        <property name="status" type="byte">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="19" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="19" not-null="true" />
+        </property>
+        <property name="usersId" type="java.lang.Integer">
+            <column name="users_id" />
+        </property>
+    </class>
+</hibernate-mapping>

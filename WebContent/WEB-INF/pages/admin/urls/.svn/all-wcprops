@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/softech-spring-web/!svn/ver/32/WebContent/WEB-INF/pages/admin/urls
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/32/WebContent/WEB-INF/pages/admin/urls/error.jsp
+END
+edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/32/WebContent/WEB-INF/pages/admin/urls/edit.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/softech-spring-web/!svn/ver/32/WebContent/WEB-INF/pages/admin/urls/list.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/softech-spring-web/!svn/ver/32/WebContent/WEB-INF/pages/admin/urls/index.jsp
+END
